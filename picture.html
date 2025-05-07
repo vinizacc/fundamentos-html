@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture</title>
+</head>
+<body>
+    A tag img é usada para exibir imagens em HTML. A tag picture é usada para fornecer diferentes imagens para diferentes tamanhos de tela ou resoluções. Isso é útil para otimizar o carregamento de imagens em dispositivos móveis e desktops.
+    <p>O elemento picture permite que você especifique várias fontes de imagem para diferentes tamanhos de tela ou resoluções. O navegador escolherá a imagem mais apropriada com base nas condições especificadas.</p>
+    
+    <picture>
+        <source srcset="gato.jpg" media="(min-width: 800px)">
+        <source srcset="foto.jpg" media="(min-width: 400px)">
+        <img src="sol.jpg" alt="Imagem de exemplo" style="width:100%;">
+    </picture>
+</body>
+</html>

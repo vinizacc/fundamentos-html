@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table, td, th{
+            border: 1px solid black;;
+        }
+        td{
+           
+        }
+        colgroup {
+            display: table-column-group;
+        } 
+        .meio {
+            background-color: rgb(177, 177, 177);
+        }
+    </style>
+</head>
+<body>
+    <p>Esta é uma página de exemplo para tabelas. Usando a propriedade class para definir a cor da coluna central</p>
+    <table>
+        <caption>Lista de produtos</caption>
+        <tr>
+            <th>Produto</th>
+            <th class="meio">Tipo</th>
+            <th>Data de validade</th>
+        </tr>
+        <tr>
+            <td>Salgados</td>
+            <td class="meio">Alimentos</td>
+            <td>2025-10-10</td>
+        </tr>
+        <tr>
+            <td>Refrigerante</td>
+            <td class="meio">Bebidas</td>
+            <td>2025-12-12</td>
+        </tr>
+    </table>
+    <hr>
+    <p>thead, tbody, tfoot delimitarão a cabeça, corpo e pé da tabela</p>
+    <table>
+        <thead>
+          <tr>
+            <th>Meses</th>
+            <th class="meio">Salvo</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Janeiro</td>
+            <td class="meio">R$100</td>
+          </tr>
+          <tr>
+            <td>Fevereiro</td>
+            <td class="meio">R$80</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>Soma</td>
+            <td class="meio">R$180</td>
+          </tr>
+        </tfoot>
+      </table>
+</body>
+</html>

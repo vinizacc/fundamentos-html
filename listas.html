@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas em html</title>
+    <style>
+        table {
+            border-style: 1px solid black;
+        }
+        tr:nth-child(even) {
+            background-color: rgba(150, 212, 212, 0.4);
+            
+        }
+        tr, th, td {
+            border: 1px solid transparent;
+        }   
+    </style>
+</head>
+<body>
+    Titulo da lista desordenada
+    <ul > 
+        <li>Suco</li>
+        <li>Refri</li>
+        <li>Chá</li>
+    </ul>
+    Titulo da lista ordenada
+    <ol>
+        <li>Suco</li>
+        <li>Refri</li>
+        <li>Chá</li>
+    </ol>
+    Lista com descrição
+    <dl>
+        <dt>Suco</dt>
+        <dd>Pode ser de laranja, melância</dd>
+        <dt>Refri</dt>
+        <dd>Pode ser de cola, laranja</dd>
+        <dt>Chá</dt>
+        <dd>Pode ser de camumila, erva cidreira</dd>
+    </dl>
+
+    <br><hr><br>
+
+    <h1>Para lista desordenada existem 4 estilos de marcadores:</h1><br>
+    
+    <table>
+        <tr>
+            <th>Disc |  style="list-style-type:disc;"</th>
+            <td>Marcador como bola (default)</td>
+        </tr>
+        <tr>
+            <th>Circle | style="list-style-type:circle;"</th>
+            <td>Marcador como circulo</td>
+        </tr>
+        <tr>
+            <th>Square | style="list-style-type:square;"</th>
+            <td>Marcador como quadrado</td>
+        </tr>
+        <tr>
+            <th>None | style="list-style-type:none;"</th>
+            <td>Sem marcador</td>
+        </tr>
+    </table>
+    <br><br>
+
+    
+    Estilo disc: <br>
+    <ul style="list-style-type:disc;"> 
+        <li>Suco</li>
+        <li>Refri</li>
+        <li>Chá</li>
+    </ul>
+    Estilo circle: <br>
+    <ul style="list-style-type:circle;"> 
+        <li>Suco</li>
+        <li>Refri</li>
+        <li>Chá</li>
+    </ul>
+    Estilo square: <br>
+    <ul style="list-style-type:square;"> 
+        <li>Suco</li>
+        <li>Refri</li>
+        <li>Chá</li>
+    </ul>
+    Estilo none: <br>
+    <ul style="list-style-type:none;"> 
+        <li>Suco</li>
+        <li>Refri</li>
+        <li>Chá</li>
+    </ul>
+    <br><hr><br>
+    <h1>Para lista ordenada existem 5 estilos de numeração:</h1><br>
+    <table>
+        <tr>
+            <th>Tipo</th>
+            <th>Descrição</th>
+        </tr>
+        <tr>
+            <td>tipo="1" | type="1"</td>
+            <td>A lista será ordenada por numeros</td>
+        </tr>
+        <tr>
+            <td>tipo="A" | type="A"</td>
+            <td>A lista será ordenada por letras maiúsculas</td>
+        </tr>
+        <tr>
+            <td>tipo="a" | type="a"</td>
+            <td>A lista será ordenada por letras minúsculas</td>
+        </tr>
+        <tr>
+            <td>tipo="I" | type="I"</td>
+            <td>A lista será ordenada por números romanos maiúsculos</td>
+        </tr>
+        <tr>
+            <td>tipo="i" | type="i"</td>
+            <td>A lista será ordenada por números romanos minúsculos</td>
+        </tr>
+    </table>
+    <br>
+    <ol type="1">
+        <li>Suco</li>
+        <li>Refri</li>
+        <li>Chá</li>
+    </ol>
+    <ol type="A">
+        <li>Suco</li>
+        <li>Refri</li>
+        <li>Chá</li>
+    </ol>
+    <ol type="a">
+        <li>Suco</li>
+        <li>Refri</li>
+        <li>Chá</li>
+    </ol>
+    <ol type="I">
+        <li>Suco</li>
+        <li>Refri</li>
+        <li>Chá</li>
+    </ol>
+    <ol type="i">
+        <li>Suco</li>
+        <li>Refri</li>
+        <li>Chá</li>
+    </ol>
+    <br><hr><br>
+    
+</body>
+</html>

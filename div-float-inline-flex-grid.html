@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplos divs</title>
+</head>
+
+<body>
+    <h2>Alimentos</h2>
+    <div style="background-color: yellow; width:300px;">
+        <h4>Ovo</h4>
+        <p>Vem da galinha</p>
+        <p>Pode ser cozinhada de várias formas</p>
+    </div>
+    <div style="background-color: rgb(19, 178, 226); width:300px;">
+        <h4>Arroz</h4>
+        <p>Vem do campo</p>
+        <p>É um alimento básico</p>
+    </div>
+    <div style="background-color: rgb(42, 233, 100); width:300px;">
+        <h4>Feijão</h4>
+        <p>Vem do campo</p>
+        <p>É um alimento básico</p>
+    </div>
+    
+    <br><hr><br><br>
+    
+    <h2>Alinhando as divs horizontalmente usando uma div container e o atributo float</h2>
+    
+    <h2>Alimentos</h2>
+    
+    <div style="width:100%; overflow:auto;">
+        <div style="background-color: yellow; width:33%; float:left;">
+            <h4>Ovo</h4>
+            <p>Vem da galinha</p>
+            <p>Pode ser cozinhada de várias formas</p>
+        </div>
+        <div style="background-color: rgb(19, 178, 226); width:33%; float:left;">
+            <h4>Arroz</h4>
+            <p>Vem do campo</p>
+            <p>É um alimento básico</p>
+        </div>
+        <div style="background-color: rgb(42, 233, 100); width:33%; float:left;">
+            <h4>Feijão</h4>
+            <p>Vem do campo</p>
+            <p>É um alimento básico</p>
+        </div>
+    </div>
+    
+    <br><hr><br><br>
+    
+    <h2>Alinhando as divs por Inline-block</h2>
+    
+    <h5>Permite retirar o comportamento natural do block; ocupar o espaço horizontal automaticamente</h5>
+    
+    <div style="background-color: yellow; width:33%; display: inline-block;">
+        <h4>Ovo</h4>
+        <p>Vem da galinha</p>
+        <p>Pode ser cozinhada de várias formas</p>
+    </div>
+    <div style="background-color: rgb(19, 178, 226); width:33%; display: inline-block;">
+        <h4>Arroz</h4>
+        <p>Vem do campo</p>
+        <p>É um alimento básico</p>
+    </div>
+    <div style="background-color: rgb(42, 233, 100); width:33%; display: inline-block;">
+        <h4>Feijão</h4>
+        <p>Vem do campo</p>
+        <p>É um alimento básico</p>
+    </div>
+    
+    <br><hr><br><br>
+    
+    <h2>Alinhando as divs por Flexbox</h2>
+    
+    <h5>Flexbox é um modelo de layout unidimensional que permite alinhar os elementos de forma mais fácil e flexível</h5>
+    
+    <div style=" display: flex">
+        <div style="background-color: yellow; width:33%;">
+            <h4>Ovo</h4>
+            <p>Vem da galinha</p>
+            <p>Pode ser cozinhada de várias formas</p>
+        </div>
+        <div style="background-color: rgb(19, 178, 226); width:33%;">
+            <h4>Arroz</h4>
+            <p>Vem do campo</p>
+            <p>É um alimento básico</p>
+        </div>
+        <div style="background-color: rgb(42, 233, 100); width:33%;">
+            <h4>Feijão</h4>
+            <p>Vem do campo</p>
+            <p>É um alimento básico</p>
+        </div>
+    </div>
+
+    <h2>Alinhando as divs por Grid</h2>
+    
+    <h5>É um modulo de layout de CSS com linhas e colunas, </h5>
+
+    <div style=" display: grid; grid-template-columns: 33% 33% 33%;">
+        <div style="background-color: yellow;">
+            <h4>Ovo</h4>
+            <p>Vem da galinha</p>
+            <p>Pode ser cozinhada de várias formas</p>
+        </div>
+        <div style="background-color: rgb(19, 178, 226);">
+            <h4>Arroz</h4>
+            <p>Vem do campo</p>
+            <p>É um alimento básico</p>
+        </div>
+        <div style="background-color: rgb(42, 233, 100);">
+            <h4>Feijão</h4>
+            <p>Vem do campo</p>
+            <p>É um alimento básico</p>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

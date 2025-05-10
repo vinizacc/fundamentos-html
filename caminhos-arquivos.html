@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caminhos de arquivos</title>
+    <style>
+        table{
+            text-align: left;
+        }
+        th, td {
+            padding: 8px;
+            border: 1px solid #ddd;
+        }
+        tr:nth-child(even) {
+            background-color: rgba(150, 212, 212, 0.4);
+        }
+    </style>
+</head>
+<body>
+    <h1>Caminhos de arquivos</h1>
+    <h4>A localização de um arquivo na estrutura de pastas de um site.</h4>
+    <table>
+        <tr>
+            <th>Caminho</th>
+            <th>Descrição</th>
+        </tr>
+        <tr>
+            <td>&lt;img src="picture.jpg"&gt;</td>
+            <td>O arquivo "picture.jpg" está localizado na mesma pasta da página atual</td>
+        </tr>
+        <tr>
+            <td>&lt;img src="images/picture.jpg"&gt;</td>
+            <td>O arquivo "picture.jpg" está localizado na pasta de imagens na pasta atual</td>
+        </tr>
+        <tr>
+            <td>&lt;img src="/images/picture.jpg"&gt;</td>
+            <td>O arquivo "picture.jpg" está localizado na pasta de imagens na raiz do site atual</td>
+        </tr>
+        <tr>
+            <td>&lt;img src="../picture.jpg"&gt;</td>
+            <td>O arquivo "picture.jpg" está localizado na pasta um nível acima da pasta atual</td>
+        </tr>
+    </table>
+    <br><hr><br>
+    <h4>Exemplo de caminho absoluto</h4>
+    &lt;img src="https://www.w3schools.com/images/picture.jpg" alt="Mountain"&gt;
+    <p>O arquivo "picture.jpg" está localizado na pasta de imagens na raiz do site atual</p>
+</body>
+</html>
